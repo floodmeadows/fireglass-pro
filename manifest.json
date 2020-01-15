@@ -9,7 +9,7 @@
     "content_scripts":  [{
         "exclude_globs": [ ],
         "include_globs": ["*"],
-        "js":            ["Fieldglass_completion_helper.user.js"],
+        "js":            ["Fieldglass_completion_helper_premium.user.js"],
         "matches":       ["https://www.fieldglass.net/rate_schedule_time_sheet_form.do*"],
         "run_at": "document_end"
     }],
