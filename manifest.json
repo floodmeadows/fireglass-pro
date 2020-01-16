@@ -1,23 +1,23 @@
 {
     "manifest_version": 2,
-    "name":             "Fieldglass Helper Premium",
-	"short_name":       "FG Helper",
-    "description":      "Adds some missing features to make timesheets easier to fill in.",
+    "name":             "Fireglass Pro for Fieldglass Timesheets",
+    "short_name":       "Fireglass Pro",
+    "description":      "Adds some missing features to make it quicker and easier to fill in your timesheets.",
     "version":          "1.0",
     "browser_action":   {
     },
     "content_scripts":  [{
         "exclude_globs": [ ],
         "include_globs": ["*"],
-        "js":            ["Fieldglass_completion_helper_premium.user.js"],
+        "js":            ["fireglass-pro.user.js"],
         "matches":       ["https://www.fieldglass.net/rate_schedule_time_sheet_form.do*"],
         "run_at": "document_end"
     }],
     "icons": {
-      "16": "images/fieldglass_helper_icon16.png",
-      "32": "images/fieldglass_helper_icon32.png",
-      "48": "images/fieldglass_helper_icon48.png",
-      "128": "images/fieldglass_helper_icon128.png"
+      "16": "images/fireglass-pro-icon16.png",
+      "32": "images/fireglass-pro-icon32.png",
+      "48": "images/fireglass-pro-icon48.png",
+      "128": "images/fireglass-pro-icon128.png"
     },
     "converted_from_user_script": true
 }
